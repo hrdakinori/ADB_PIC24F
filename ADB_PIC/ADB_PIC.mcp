@@ -1,0 +1,195 @@
+[HEADER]
+magic_cookie={66E99B07-E706-4689-9E80-9B2582898A13}
+file_version=1.0
+device=PIC24FJ256GB106
+[PATH_INFO]
+BuildDirPolicy=BuildDirIsProjectDir
+dir_src=
+dir_bin=
+dir_tmp=
+dir_sin=
+dir_inc=.;./Common;./Include;./USB
+dir_lib=
+dir_lkr=
+[CAT_FILTERS]
+filter_src=*.s;*.c
+filter_inc=*.h;*.inc
+filter_obj=*.o
+filter_lib=*.a
+filter_lkr=*.gld
+[CAT_SUBFOLDERS]
+subfolder_src=Common;USB
+subfolder_inc=Common;Include;USB
+subfolder_obj=
+subfolder_lib=
+subfolder_lkr=
+[FILE_SUBFOLDERS]
+file_000=Common
+file_001=USB
+file_002=USB
+file_003=USB
+file_004=.
+file_005=.
+file_006=.
+file_007=USB
+file_008=.
+file_009=.
+file_010=Include
+file_011=Include
+file_012=Include
+file_013=Include
+file_014=Include
+file_015=Include
+file_016=Include
+file_017=Include
+file_018=Include
+file_019=Include
+file_020=Include
+file_021=USB
+file_022=USB
+file_023=USB
+file_024=USB
+file_025=.
+file_026=USB
+[GENERATED_FILES]
+file_000=no
+file_001=no
+file_002=no
+file_003=no
+file_004=no
+file_005=no
+file_006=no
+file_007=no
+file_008=no
+file_009=no
+file_010=no
+file_011=no
+file_012=no
+file_013=no
+file_014=no
+file_015=no
+file_016=no
+file_017=no
+file_018=no
+file_019=no
+file_020=no
+file_021=no
+file_022=no
+file_023=no
+file_024=no
+file_025=no
+file_026=no
+[OTHER_FILES]
+file_000=no
+file_001=no
+file_002=no
+file_003=no
+file_004=no
+file_005=no
+file_006=no
+file_007=no
+file_008=no
+file_009=no
+file_010=no
+file_011=no
+file_012=no
+file_013=no
+file_014=no
+file_015=no
+file_016=no
+file_017=no
+file_018=no
+file_019=no
+file_020=no
+file_021=no
+file_022=no
+file_023=no
+file_024=no
+file_025=no
+file_026=no
+[FILE_INFO]
+file_000=Common\uart2.c
+file_001=USB\usb_hal_pic24.c
+file_002=USB\usb_host.c
+file_003=USB\usb_host_generic.c
+file_004=Delay.c
+file_005=main.c
+file_006=adb.c
+file_007=USB\usb_config.c
+file_008=Delay.h
+file_009=HardwareProfile.h
+file_010=Include\Compiler.h
+file_011=Include\ctimer.h
+file_012=Include\GenericTypeDefs.h
+file_013=Include\struct_queue.h
+file_014=Include\uart2.h
+file_015=Include\USB\usb.h
+file_016=Include\USB\usb_ch9.h
+file_017=Include\USB\usb_common.h
+file_018=Include\USB\usb_hal.h
+file_019=Include\USB\usb_hal_pic24.h
+file_020=Include\USB\usb_host.h
+file_021=USB\USB PIC24.h
+file_022=USB\usb_hal_local.h
+file_023=USB\usb_host_generic.h
+file_024=USB\usb_host_local.h
+file_025=adb.h
+file_026=USB\usb_config.h
+[SUITE_INFO]
+suite_guid={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+suite_state=
+[TOOL_SETTINGS]
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}=--heap=2048 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}000=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}000=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}000=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}000=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}001=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}001=-g -Wall -DUSB_POLLING -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}001=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}001=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}002=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}002=-g -Wall -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}002=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}002=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}003=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}003=-g -Wall -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}003=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}003=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}004=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}004=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}004=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}004=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}005=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}005=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}005=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}005=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}006=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}006=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}006=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}006=
+TS{7D9C6ECE-785D-44CB-BA22-17BF2E119622}007=-g
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}007=-g -Wall -mlarge-code -mlarge-data -O2
+TS{7DAC9A1D-4C45-45D6-B25A-D117C74E8F5A}007=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TS{509E5861-1E2A-483B-8B6B-CA8DB7F2DD78}007=
+[ACTIVE_FILE_SETTINGS]
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}000_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}001_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}002_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}003_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}004_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}005_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}006_active=yes
+TS{25AC22BD-2378-4FDB-BFB6-7345A15512D3}007_active=yes
+[INSTRUMENTED_TRACE]
+enable=0
+transport=0
+format=0
+[CUSTOM_BUILD]
+Pre-Build=
+Pre-BuildEnabled=1
+Post-Build=
+Post-BuildEnabled=1

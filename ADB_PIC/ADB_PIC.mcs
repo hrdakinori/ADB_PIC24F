@@ -1,0 +1,136 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Users\akinori\picproject\ADB_PIC\uart2.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File001]
+Location=C:\Users\akinori\picproject\ADB_PIC\usb_hal_pic24.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUSB_POLLING -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File002]
+Location=C:\Users\akinori\picproject\ADB_PIC\usb_host.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File003]
+Location=C:\Users\akinori\picproject\ADB_PIC\usb_host_generic.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File004]
+Location=C:\Users\akinori\picproject\ADB_PIC\Delay.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File005]
+Location=C:\Users\akinori\picproject\ADB_PIC\main.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File006]
+Location=C:\Users\akinori\picproject\ADB_PIC\adb.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DDEBUG_MODE -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File007]
+Location=C:\Users\akinori\picproject\ADB_PIC\usb_config.o
+Folder=Intermediary
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File008]
+Location=C:\Users\akinori\picproject\ADB_PIC\ADB_PIC.cof
+Folder=Output
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=2048 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1 --defsym=__ICD2RAM=1
+[File009]
+Location=C:\Users\akinori\picproject\ADB_PIC\ADB_PIC.hex
+Folder=Output
+DeviceName=PIC24FJ256GB106
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;./Common;./Include;./USB||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Common\uart2.c|USB\usb_hal_pic24.c|USB\usb_host.c|USB\usb_host_generic.c|Delay.c|main.c|adb.c|USB\usb_config.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=2048 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1 --defsym=__ICD2RAM=1
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files (x86)\Microchip\mplabc30\v3.25\bin\pic30-ld.exe

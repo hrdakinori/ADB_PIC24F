@@ -1,0 +1,15 @@
+ADB_PIC
+Target : PIC24FJ256GB106
+
+pin assignment
+
+CN1 18	RB7/RP7/AN7	U2TX	UART2 TX
+CN1 19	RB8/RP8/AN8	U2RX	UART2 RX
+
+TestServer
+
+Target : android 1.6
+
+
+
+
